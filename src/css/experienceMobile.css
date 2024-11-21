@@ -1,0 +1,107 @@
+@media screen and (min-width:1px){
+    .experienciaMobile{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+
+}
+
+
+@media screen and (min-width:300px){
+
+.experienciaMobile{
+    width:100%;
+    height:auto;
+    background-color: #F9F7F3;
+    opacity:1;
+    display:block;
+}
+
+.experienciaMobileTitle{
+    padding-top:8vh;
+    color: #173E4C;
+    font-weight:bold;
+    font-size:28px;
+    text-align:left;
+    margin-left:5%;
+    animation: fade-in 2s ease-in-out;
+    animation-timeline: view();
+}
+
+.experienciaMobileParagraph{
+    padding-top:8vh;
+    margin-left:5%;
+    color: #173E4C;
+    font-size:20px;
+    line-height:30px;
+    text-align: left;
+    width:95%;
+    animation: fade-in 4s ease-in-out;
+    animation-timeline: view();
+
+}
+
+.experienciaMobileImg{
+    padding-top:8vh;
+
+    width:100%;
+    height:auto;
+    animation: fade-in 5s ease-in-out;
+    animation-timeline: view();
+}
+
+.experienciaMobileImg2{
+    width:60%;
+    margin-left:20%;
+    animation: fade-in 8s ease-in-out;
+    animation-timeline: view();
+}
+
+.experienciaMobileBtn{
+    margin-left:5%;
+    margin-top:8vh;
+    background-color: #07232C;
+    width:270px;
+    height:13vh;
+    color: #fff;
+    font-size: 14px;
+    font-weight:bold;
+    animation: fade-in 4s ease-in-out;
+    animation-timeline: view();
+}
+
+
+.experienciaMobileBtn:hover{
+    background-color:#819AA2;
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width:769px){
+    
+
+.experienciaMobile{
+    width: 0.0001px;
+    height:0.00001px;
+    display: none;
+    opacity:0;
+}
+
+
+
+    
+}

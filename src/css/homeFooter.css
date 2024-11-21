@@ -1,0 +1,49 @@
+@media screen and (min-width:1px){
+    .homeFooter{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+    
+    
+    }
+
+    @media screen and (min-width:300px){
+        .homeFooter{
+            width:100%;
+            height:auto;
+            display:block;
+            opacity:1;
+        }
+
+        .homeFooterImg{
+            width:60vw;
+            margin-left:20vw;
+            margin-bottom: -7vh;
+
+        }
+
+        .homeFooterArea{
+            background-color:#3d5a89;;
+            width:100%;
+            height:50vh;
+        }
+        
+        .homeFooterLogo{
+            width:30vw;
+            margin-left:35vw;
+            margin-top:15vh;
+        }
+        
+        }
+    
+        @media screen and (min-width:600px){
+
+                .homeFooterImg{
+                    margin-bottom:-15vh;
+                    width:36vw;
+                    margin-left:32vw;
+                }
+
+        }

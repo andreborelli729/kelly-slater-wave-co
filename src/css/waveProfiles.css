@@ -1,0 +1,104 @@
+@media screen and (min-width:1px){
+    .waveProfiles{
+               width:0.0001px;
+        height:0.0001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+
+    @media screen and (min-width:769px){
+        .waveProfiles{
+            width:100%; 
+            height:    auto;
+            opacity:1;
+            display:block;
+        }
+        .waveProfilesTitle{
+            margin-left:8%;
+            text-transform: uppercase;
+            font-size:34px;
+            font-weight:bold;
+            text-align:left;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+        .waveProfilesParagraph{
+        margin-left:8%;
+        font-size:22px;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+
+        }
+
+        .waveProfilesGridContainer{
+            width:100%;
+            display:grid;
+            grid-template-columns:1fr,1fr;
+            grid-template-rows:1fr,1fr;
+
+        }
+
+        .waveProfilesFigure1{
+            grid-column:1;
+            grid-row:1;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+            margin-left:10vw;
+        }
+        .waveProfilesFigure2{
+            grid-column:2;
+            grid-row:1;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+        .waveProfilesFigure3{
+            grid-column:1;
+            grid-row:2;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+            margin-left:14vw;
+
+        }
+        .waveProfilesFigure4{
+            grid-column:2;
+            grid-row:2;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+        .waveProfilesImg, .waveProfilesFigcaption, .waveProfilesFigureTitle{
+            width:40vw;
+            text-align:center;
+
+        }
+
+        .waveProfilesFigureTitle{
+            font-weight:bold;
+            font-size:36px;
+            text-transform:uppercase;
+
+        }
+
+        .waveProfilesFigcaption{
+            font-size:16px;
+            line-height:32px;
+            font-weight:bold;
+            margin-top:5vh;
+        }
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        }

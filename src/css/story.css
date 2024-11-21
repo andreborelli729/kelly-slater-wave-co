@@ -1,0 +1,94 @@
+@media screen and (min-width:1px){
+    .story{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+    
+    
+    }
+
+    @media screen and (min-width:769px){
+
+    .story{
+        width:100%;
+        height:auto;
+        opacity:1;
+        display:grid;
+        grid-template-columns:1fr,1fr;
+ 
+    }
+
+   
+
+    .storyImgContainer{
+        width:50vw;
+        height:auto;
+        grid-column:1;
+    }
+
+    .storyTextContainer{
+        width:50vw;
+        background-color:#F9F7F3;
+        grid-column:2;
+        
+    }
+
+    .storyImg1{
+        width:55vw;
+        height:auto;
+    }
+
+    .storyImg2{
+        width:27vw;
+        margin-left:7vw;
+    }
+
+    .storyTitle{
+       
+        padding-top:10vw;
+        color: #173E4C;
+        font-weight:bold;
+        font-size:32px;
+        text-align:left;
+        margin-left:15vw;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+    
+    .storyParagraph{
+        padding-top:8vh;
+        margin-left:15vw;
+        color: #173E4C;
+        font: size 24px;
+        line-height:32px;
+        text-align: left;
+        width:30vw;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    
+    }
+    
+    .storyBtn{
+        margin-left:15vw;
+        margin-top:8vh;
+        background-color: #07232C;
+        width:150px;
+        height:13vh;
+        color: #fff;
+        font-size: 14px;
+        font-weight:bold;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+    @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 100;
+        }
+      }
+
+    }

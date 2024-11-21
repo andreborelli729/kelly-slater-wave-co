@@ -1,0 +1,97 @@
+@media screen and (min-width:1px){
+    .storyMobile{
+        width:0.0001px;
+        height:0.0001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width:300px){
+    .storyMobile{
+        width:100%;
+        height:auto;
+        opacity:1;
+        display:block;
+        margin-bottom:20vw;
+    }
+
+    .storyMobileImg1{
+        width:100%;
+        animation: fade-in 2s ease-in-out;
+        animation-timeline: view();
+        
+    }
+    .storyMobileTitle{
+        padding-top:8vh;
+        color: #173E4C;
+        font-weight:bold;
+        font-size:28px;
+        text-align:left;
+        margin-left:5%;
+        animation: fade-in 2s ease-in-out;
+        animation-timeline: view();
+    }
+    
+    .storyMobileParagraph{
+        padding-top:8vh;
+        margin-left:5%;
+        color: #173E4C;
+        font-size:20px;
+        line-height:30px;
+        text-align: left;
+        width:90%;
+        animation: fade-in 4s ease-in-out;
+        animation-timeline: view();
+    
+    }
+    .storyMobileImg2{
+        width:50%;
+        margin-left:15%;
+        animation: fade-in 2s ease-in-out;
+        animation-timeline: view();
+    }
+    .storyMobileBtn{
+        margin-left:5%;
+        margin-top:8vh;
+        background-color: #07232C;
+        width:270px;
+        height:13vh;
+        color: #fff;
+        font-size: 14px;
+        font-weight:bold;
+        animation: fade-in 4s ease-in-out;
+        animation-timeline: view();
+    }
+    
+    
+    .storyMobileBtn:hover{
+        background-color:#819AA2;
+    }
+    @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 100;
+        }
+      }
+    
+    
+    }
+
+    @media screen and (min-width:769px){
+        .storyMobile{
+            width:0.0001px;
+            height:0.0001px;
+            opacity:0;
+            display:none;
+        }
+        
+        
+        
+    }
+    

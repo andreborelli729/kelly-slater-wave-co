@@ -1,0 +1,104 @@
+@media screen and (min-width:1px){
+    .waveProfilesMobile{
+               width:0.0001px;
+        height:0.0001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+
+
+
+    @media screen and (min-width:300px){
+        .waveProfilesMobile{
+                   width:100%;
+            height:auto;
+            opacity:1;
+            display:block;
+        }
+
+        .waveProfilesTitleMobile{
+            font-size:30px;
+            width:100%;
+            padding:2%;
+            box-sizing:border-box;
+            line-height:bold;
+            text-transform:uppercase;
+            text-align:left;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+        .waveProfilesParagraphMobile{
+            width:100%
+            font-size 22px;
+            line-height:32px;
+            padding:2%;
+            box-sizing:border-box;
+            text-align:left;
+            margin-top:5vh;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+        .waveProfilesFigureMobile{
+            margin-top:10vh;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+        .waveProfilesImgMobile, .waveProfilesFigcaptionMobile{
+            width:94%;
+            height:auto;
+            margin-left:6vw;
+
+        }
+        .waveProfilesFigureTitleMobile{
+            font-size:28px;
+            font-weight:bold;
+            width:94%;
+            margin-left:6vw;
+            text-align:center;
+            text-transform:uppercase;
+        }
+
+        .waveProfilesFigcaptionMobile{
+            font-size:12px;
+            text-align:left;
+            line-height:40px;
+
+        }
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        
+        }
+    
+
+        @media screen and (min-width:600px){
+            .waveProfilesFigcaptionMobile{
+                 font-size:22px;
+            }
+            
+            
+            }
+        
+        
+        @media screen and (min-width:769px){
+            .waveProfilesMobile{
+                       width:0.0001px;
+                height:0.0001px;
+                opacity:0;
+                display:none;
+            }
+            
+            
+            }
+        
