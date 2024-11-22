@@ -1,0 +1,121 @@
+@media screen and (min-width:1px){
+    .cienciaBannerMobile{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+
+
+    @media screen and (min-width:300px){
+        .cienciaBannerMobile{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:block;
+        }
+
+        .cienciaBannerImgMobile{
+            width:100%;
+            height:auto;
+        }
+.cienciaBannerTextContainerMobile{
+    width:100vw;
+    margin-top:30vw;
+
+}
+
+.cienciaSpamTitleMobile{
+    font-size:32px;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align:center;
+    padding:2vw;
+    color:black;
+    animation: fade-in 1s ease-in-out;
+    animation-timeline: view();
+    
+
+}
+
+.cienciaSpamParagraphMobile{
+  text-align:center;
+    font-size:23px;
+    padding:2vw;
+    line-height:43px;
+    color:black;
+    animation: fade-in 1s ease-in-out;
+    animation-timeline: view();
+
+    
+}
+        .cienciaBannerTitleMobile{
+            text-transform:uppercase;
+            text-align:center;
+            width:55vw;
+            margin-left:20vw;
+            font-size:26px;
+            color:white;
+            font-weight:bold;
+            margin-top:-17vh;
+
+        }
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        
+        }
+        @media screen and (min-width:400px){
+.cienciaBannerTitleMobile{
+    font-size:32px;
+        margin-top:-17vh;
+}
+        }
+        @media screen and (min-width:550px){
+            .cienciaBannerTitleMobile{
+                font-size:40px;
+                    margin-top: -23vh;
+            }
+ 
+                    }
+                    @media screen and (min-width:640px){
+                        .cienciaBannerTitleMobile{
+                            font-size:42px;
+                                margin-top:-25vh;
+                        }
+                                }
+
+                                @media screen and (min-width:750px){
+                                    .cienciaBannerTitleMobile{
+                                        font-size:47px;
+                                        margin-top:-27vh;
+                                    }
+                                            }
+
+                                            @media screen and (min-width:850px){
+                                                .cienciaBannerTitleMobile{
+                                                    margin-top:-30vh;
+
+                                                
+                                                }
+                                            }
+
+    @media screen and (min-width:1025px){
+        .cienciaBannerMobile{
+            width:0.0001px;
+            height:0.00001px;
+            opacity:0;
+            display:none;
+        }
+        
+        
+        }
+        

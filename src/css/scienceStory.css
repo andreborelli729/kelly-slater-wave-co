@@ -1,0 +1,113 @@
+@media screen and (min-width:1px){
+    .scienceStory{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+    
+    
+    }
+    @media screen and (min-width:769px){
+        .scienceStory{
+            margin-top:18vh;
+            width:100%;
+            height:auto;
+            display:grid;
+            opacity:1;
+            grid-template-columns:1fr,1fr
+        }
+
+        .scienceStoryTextContainer{
+            grid-column:2;
+            width:50vw;
+            display:block;
+
+        }
+
+        .scienceStoryImgContainer{
+            grid-column:1;
+            width:50vw;
+            display:block;
+        }
+
+        .scienceStoryImg{
+            width:33vw;
+            margin-left:16vw;
+            margin-top:7vh;
+
+        }
+
+        .scienceStoryParagraph{
+           color:black;
+            width:40vw;
+            margin-left:5vw;
+            font-size:16px;
+            line-height:37px;
+            margin-top:4vh;
+        }
+
+        .scienceStoryBtn{
+            width:20vw;
+            height:10vh;
+            color:white;
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+            background-color:#07232c;
+            margin-left:5vw;
+        }
+        
+        
+        }
+
+        @media screen and (min-width:950px){
+
+            .scienceStoryParagraph{
+font-size:20px;
+line-height:45px;
+
+            }
+
+        }
+        @media screen and (min-width:1200px){
+            .scienceStoryParagraph{
+                font-size:23px;
+                line-height:50px;
+                
+                            }
+
+        }
+
+    
+
+        @media screen and (min-width:1400px){
+            .scienceStoryParagraph{
+                font-size:25px;
+                line-height:55px;
+                
+                            }
+
+        }
+
+        @media screen and (min-width:1600px){
+            .scienceStoryParagraph{
+                font: size 34px;
+                line-height:80px;
+                
+                            }
+                            
+
+        
+                        }
+        
+                        @media screen and (min-width:2000px){
+                            .scienceStoryParagraph{
+                                font: size 42px;
+                                line-height:110px;
+                                
+                                            }
+                                            
+                
+                        
+                                        }

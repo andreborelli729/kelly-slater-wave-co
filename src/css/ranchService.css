@@ -1,0 +1,92 @@
+@media screen and (min-width:1px){
+    .ranchService{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+
+
+    @media screen and (min-width:769px){
+        .ranchService{
+            margin-top: 10vh;
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:grid;
+grid-template-columns: 1fr,1fr;
+animation: fade-in 2s ease-in-out;
+animation-timeline: view();
+ }
+.ranchServiceImgContainer{
+    grid-column:1;
+    width:50vw;
+}
+        .ranchServiceImg{
+            width:40vw;
+            height:auto;
+        }
+        .ranchServiceTextContainer{
+            grid-column:2;
+            width:50vw;
+            
+        }
+
+        .ranchServiceTitle{
+            font-size:27px;
+            font-weight:bold;
+            text-transform:uppercase;
+            
+        }
+
+        .ranchServiceParagraph{
+            margin-top:5vh;
+            font-size:14px;
+            line-height:35px;
+            color:black;
+            width:40vw;
+        
+        }
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        }
+
+        @media screen and (min-width:960px){
+.ranchServiceParagraph{
+    font-size:18px;
+    line-height:40px;
+}
+
+        }
+
+        @media screen and (min-width:1300px){
+
+            .ranchServiceParagraph{
+                font-size:22px;
+                line-height:48px;
+            }
+
+            .ranchServiceTitle{
+                font-size:35px;
+            }
+            
+
+        }
+
+
+        @media screen and (min-width:960px){
+            .ranchServiceParagraph{
+                font-size:25px;
+                line-height:67px;
+            }
+            
+                    }

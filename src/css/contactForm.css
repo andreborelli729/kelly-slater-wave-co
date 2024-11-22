@@ -84,13 +84,13 @@
     }
 
     .contactFormBtn{
-        width:15vw;
+        width:35vw;
         height:10vh;
         background-color:rgb(7, 35, 44);
         color:white;
         border: 2px solid rgb(7, 35, 44);
         border-radius:5px;
-        margin-left:70vw;
+        margin-left:50vw;
         margin-top:8vh;
         cursor:pointer;
     }
@@ -99,4 +99,14 @@
 
     
     
+    }
+
+    @media screen and (min-width:769px){
+
+        .contactFormBtn{
+            width:15vw;
+            margin-left:70vw;
+
+        }
+
     }

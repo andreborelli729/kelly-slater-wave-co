@@ -1,0 +1,77 @@
+@media screen and (min-width:1px){
+    .scienceStoryMobile{
+        width:0.0001px;
+        height:0.0001px;
+        opacity:0;
+        display:none;
+    }
+    
+}
+
+@media screen and (min-width:300px){
+    .scienceStoryMobile{
+        width:100%;
+        height:auto;
+        opacity:1;
+        display:block;
+    }
+
+    .scienceStoryImgMobile{
+        width:68vw;
+        margin-left:16vw;
+        margin-top:3vh;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+
+    .scienceStoryParagraphMobile{
+        width:90vw;
+        margin-left:5vw;
+        font-size:20px;
+        margin-top:4vh;
+        color:black;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+
+    .scienceStoryBtnMobile{
+        width:60vw;
+        margin-left:5vw;
+        height:10vh;
+        background-color: rgb(7, 35, 44);
+        color:white;
+        font-size:20px;
+        font-weight:bold;
+        text-align:center;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+    
+}
+
+
+@media screen and (min-width:769px){
+    .scienceStoryMobile{
+        width:0.0001px;
+        height:0.0001px;
+        opacity:0;
+        display:none;
+    }
+    @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 100;
+        }
+      }
+
+}
+
+@media screen and (min-width:450px){
+.scienceStoryBtnMobile{
+    width:30vw;
+}
+
+
+}
