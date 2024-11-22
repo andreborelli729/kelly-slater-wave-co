@@ -27,14 +27,11 @@ export const links = [
   },
   {
     id: 6,
-    url: '/moments',
-    text: 'Moments',
-  },
-  {
-    id: 7,
     url: '/contact',
     text: 'Contact',
   }
+  
+ 
 
 
 ]

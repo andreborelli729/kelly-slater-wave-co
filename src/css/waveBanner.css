@@ -25,6 +25,20 @@
             box-sizing:border-box;  
         }
 
+        .contatoBannerTitle{
+            font-size:70px;
+            width:30vw;
+            margin-left:50vw;
+            font-weight:bold;
+            text-transform:uppercase;
+            color:white;
+            margin-top:-45vh;
+        }
+
+        .contatoBannerParagraph{
+            margin-top: 30vh;
+        }
+
         .ondaBannerGrid1{
             grid-column:1;
             width:12vw;

@@ -1,4 +1,13 @@
 
+@media screen and (min-width:1px){
+.ondaBannerMobile{
+    width: 0.0001px;
+    height:0.0001px;
+    opacity:0;
+    display:none;
+}
+
+}
 
     @media screen and (min-width:300px){
         .ondaBannerMobile{
@@ -14,8 +23,25 @@
         }
 .ondaBannerTextContainerMobile{
     width:100vw;
-    margin-top:38vw;
+    margin-top:44vw;
+    color:black;
 
+}
+
+.contatoBannerTextContainerMobile{
+    margin-top:20vw;
+}
+
+.contatoBannerTitleMobile{
+    text-transform:uppercase;
+    text-align:center;
+    width:100vw;
+
+    
+    font-size:32px;
+    color:white;
+    font-weight:bold;
+    margin-top:-14vh;
 }
 
 .theBestTitleMobile{
@@ -54,11 +80,17 @@
     font-size:36px;
         margin-top:-34vh;
 }
+.contatoBannerTitleMobile{
+margin-top: -18vh;
+}
         }
         @media screen and (min-width:550px){
             .ondaBannerTitleMobile{
                 font-size:40px;
                     margin-top:-38vh;
+            }
+            .contatoBannerTitleMobile{
+                margin-top:-23vh;
             }
                     }
                     @media screen and (min-width:640px){
@@ -71,7 +103,9 @@
                                 @media screen and (min-width:697px){
                                     .ondaBannerTitleMobile{
                                         font-size:47px;
-                                            margin-top:-42vh;
+                                    }
+                                    .contatoBannerTitleMobile{
+                                        margin-top:-28vh;
                                     }
                                             }
 
