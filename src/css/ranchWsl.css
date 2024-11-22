@@ -1,0 +1,134 @@
+@media screen and (min-width:1px){
+    .ranchWsl{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+    @media screen and (min-width:769px){
+        .ranchWsl{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:grid;
+            grid-template-columns:1fr,1fr;
+            margin-top:20vh;
+            animation: fade-in 2s ease-in-out;
+animation-timeline: view();
+        }
+
+        .ranchWslTextContainer{
+            grid-column:1;
+            width:50vw;
+        }
+
+        .ranchWslImgContainer{
+            width:50vw;
+            grid-column:2;
+        }
+
+        .ranchWslTitle{
+            font-size:32px;
+            font-weight:bold;
+            text-transform:uppercase;
+            margin-left:5vw;
+            
+        }
+
+        .ranchWslParagraph{
+            margin-top:5vh;
+            font-size:18px;
+            line-height:44px;
+            color:black;
+            width:40vw;
+            margin-left:5vw;
+        
+        }
+
+        .ranchWslImg1{
+            width:24vw;
+        }
+
+        .ranchWslImg2{
+            width:24vw;
+            margin-left:18vw;
+            margin-top: -5vh;
+
+
+        }
+
+        .ranchWslImg3{
+            width:45vw;
+            
+        }
+        .ranchWslImg4{
+            width:25vw;
+            margin-left:10vw;
+            margin-top:-1vh;
+        }
+
+        
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        }
+
+        @media screen and (min-width:900px){
+        .ranchWslTitle{
+            font-size:36px;
+        }
+
+        .ranchWslParagraph{
+            font-size:22px;
+            line-height:50px;
+        }
+        
+        }
+
+        @media screen and (min-width:1050px){
+            .ranchWslTitle{
+                font-size:40px;
+            }
+    
+            .ranchWslParagraph{
+                font-size:26px;
+                line-height:56px;
+            }
+            
+            }
+
+
+            @media screen and (min-width:1200px){
+                .ranchWslTitle{
+                    font-size:44px;
+                }
+        
+                .ranchWslParagraph{
+                    font-size:28px;
+                    line-height:68px;
+                }
+                
+                }
+    
+
+                @media screen and (min-width:1400px){
+                    .ranchWslTitle{
+                        font-size:45px;
+                    }
+            
+                    .ranchWslParagraph{
+                        font: size 38px;
+                        line-height:87px;
+                    }
+                    
+                    }
+        
+

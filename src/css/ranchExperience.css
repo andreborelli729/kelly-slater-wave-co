@@ -1,0 +1,128 @@
+@media screen and (min-width:1px){
+    .ranchExperience{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+    @media screen and (min-width:769px){
+        .ranchExperience{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:grid;
+            grid-template-columns:1fr,1fr;
+            margin-top:20vh;
+            animation: fade-in 2s ease-in-out;
+animation-timeline: view();
+        }
+
+        .ranchExperienceTextContainer{
+            grid-column:1;
+            width:50vw;
+        }
+
+        .ranchExperienceImgContainer{
+            width:50vw;
+            grid-column:2;
+        }
+
+        .ranchExperienceTitle{
+            font-size:32px;
+            font-weight:bold;
+            text-transform:uppercase;
+            margin-left:5vw;
+            
+        }
+
+        .ranchExperienceParagraph{
+            margin-top:5vh;
+            font-size:18px;
+            line-height:44px;
+            color:black;
+            width:40vw;
+            margin-left:5vw;
+        
+        }
+
+        .ranchExperienceImg1{
+            width:49vw;
+        }
+
+        .ranchExperienceImg2{
+            width:25vw;
+            margin-left:8vw;
+            margin-top: -10vh;
+
+
+        }
+
+        .ranchExperienceImg3{
+            width:49vw;
+            
+        }
+        
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        }
+
+        @media screen and (min-width:900px){
+        .ranchExperienceTitle{
+            font-size:36px;
+        }
+
+        .ranchExperienceParagraph{
+            font-size:22px;
+            line-height:50px;
+        }
+        
+        }
+
+        @media screen and (min-width:1050px){
+            .ranchExperienceTitle{
+                font-size:40px;
+            }
+    
+            .ranchExperienceParagraph{
+                font-size:26px;
+                line-height:56px;
+            }
+            
+            }
+
+
+            @media screen and (min-width:1200px){
+                .ranchExperienceTitle{
+                    font-size:44px;
+                }
+        
+                .ranchExperienceParagraph{
+                    font-size:28px;
+                    line-height:68px;
+                }
+                
+                }
+    
+
+                @media screen and (min-width:1400px){
+                    .ranchExperienceTitle{
+                        font-size:45px;
+                    }
+            
+                    .ranchExperienceParagraph{
+                        font: size 38px;
+                        line-height:87px;
+                    }
+                    
+                    }
+        
+
