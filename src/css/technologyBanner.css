@@ -4,7 +4,7 @@
         margin:0;
     }
     
-    .ondaBanner{
+    .tecnologiaBanner{
         width:0.0001px;
         height:0.00001px;
         opacity:0;
@@ -15,7 +15,7 @@
     }
 
     @media screen and (min-width:1025px){
-        .ondaBanner{
+        .tecnologiaBanner{
             max-width:100%;
             height:auto;
             opacity:1;
@@ -25,32 +25,32 @@
             box-sizing:border-box;  
         }
 
-        .ondaBannerGrid1{
+        .tecnologiaBannerGrid1{
             grid-column:1;
             width:12vw;
         }
-        .ondaBannerGrid2{
+        .tecnologiaBannerGrid2{
             grid-column:2;
             width:85vw;
         }
 
-        .ondaBannerLogo{
+        .tecnologiaBannerLogo{
             width:14vw;
             margin-left:2vw;
             height:auto;
             margin-top:5vh;
         }
         
-        .ondaBannerImg{
+        .tecnologiaBannerImg{
             width:88%;
             margin-left:12%;
             height:auto;
         }
 
-        .ondaBannerTitle{
+        .tecnologiaBannerTitle{
             font-size:70px;
-            width:30vw;
-            margin-left:50vw;
+            width:50vw;
+            margin-left:35vw;
             font-weight:bold;
             text-transform:uppercase;
             color:white;
@@ -58,20 +58,22 @@
 
         }
 
-        .ondaBannerTextContainer{
+        .tecnologiaBannerTextContainer{
             width:40%;
             margin-left:50vw;
         }
 
-        .theBestTitle{
+        .tecnologiaBannerSpamTitle{
             text-transform:uppercase;
             font-size:32px;
             font-weight:bold;
             margin-top:30vh;
             text-align:end;
+            color:black;
         }
 
-        .theBestParagraph{
+        .tecnologiaBannerSpamParagraph{
+            color:black;
             font-size:22px;
             text-align:end;
             line-height:60px;
@@ -80,8 +82,9 @@
         }
 
         @media screen and (min-width:1275px){
-            .theBestTitle{
+            .tecnologiaBannerSpamTitle{
 margin-top:40vh;
             }
         }
+    
     

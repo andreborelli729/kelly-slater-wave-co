@@ -17,12 +17,13 @@
             height:auto;
             opacity:1;
             display:block;
+            padding:2vw;
+            box-sizing:border-box;
         }
 
         .waveProfilesTitleMobile{
             font-size:30px;
             width:100%;
-            padding:2%;
             box-sizing:border-box;
             line-height:bold;
             text-transform:uppercase;
@@ -35,7 +36,6 @@
             width:100%
             font-size 22px;
             line-height:32px;
-            padding:2%;
             box-sizing:border-box;
             text-align:left;
             margin-top:5vh;
@@ -50,9 +50,8 @@
         }
 
         .waveProfilesImgMobile, .waveProfilesFigcaptionMobile{
-            width:94%;
+            width:100%;
             height:auto;
-            margin-left:6vw;
 
         }
         .waveProfilesFigureTitleMobile{

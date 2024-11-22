@@ -1,5 +1,5 @@
 @media screen and (min-width:1px){
-    .waveProfiles{
+    .technical{
                width:0.0001px;
         height:0.0001px;
         opacity:0;
@@ -10,13 +10,13 @@
     }
 
     @media screen and (min-width:769px){
-        .waveProfiles{
+        .technical{
             width:100%; 
             height:    auto;
             opacity:1;
             display:block;
         }
-        .waveProfilesTitle{
+        .technicalTitle{
             margin-left:8%;
             text-transform: uppercase;
             font-size:34px;
@@ -26,7 +26,11 @@
             animation-timeline: view();
         }
 
-        .waveProfilesParagraph{
+        .technicalImg{
+            height:50vh;
+        }
+
+        .technicalParagraph{
         margin-left:8%;
         font-size:22px;
         animation: fade-in 1s ease-in-out;
@@ -34,15 +38,15 @@
 
         }
 
-        .waveProfilesGridContainer{
+        .technicalGridContainer{
             width:100%;
             display:grid;
             grid-template-columns:1fr,1fr;
-            grid-template-rows:1fr,1fr;
+            grid-template-rows:1fr,1fr,1fr,1fr;
 
         }
 
-        .waveProfilesFigure1{
+        .technicalFigure1{
             grid-column:1;
             grid-row:1;
             width:40vw;
@@ -50,14 +54,14 @@
             animation-timeline: view();
             margin-left:8vw;
         }
-        .waveProfilesFigure2{
+        .technicalFigure2{
             grid-column:2;
             grid-row:1;
             width:40vw;
             animation: fade-in 1s ease-in-out;
             animation-timeline: view();
         }
-        .waveProfilesFigure3{
+        .technicalFigure3{
             grid-column:1;
             grid-row:2;
             width:40vw;
@@ -66,29 +70,64 @@
             margin-left:8vw;
 
         }
-        .waveProfilesFigure4{
+        .technicalFigure4{
             grid-column:2;
             grid-row:2;
             width:40vw;
             animation: fade-in 1s ease-in-out;
             animation-timeline: view();
         }
+        .technicalFigure5{
+            grid-column:1;
+            grid-row:3;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+            margin-left:8vw;
+        }
 
-        .waveProfilesImg, .waveProfilesFigcaption, .waveProfilesFigureTitle{
+        .technicalFigure6{
+            grid-column:2;
+            grid-row:3;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+        .technicalFigure7{
+            grid-column:1;
+            grid-row:4;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+            margin-left:8vw;
+
+        }
+
+        .technicalFigure8{
+            grid-column:2;
+            grid-row:4;
+            width:40vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+
+        .technicalImg, .technicalFigcaption, .technicalFigureTitle{
             width:40vw;
             text-align:center;
 
         }
 
-        .waveProfilesFigureTitle{
+        .technicalFigureTitle{
             font-weight:bold;
             font-size:36px;
             text-transform:uppercase;
-            margin-top:8vh;
+            margin-top:10vh;
 
         }
 
-        .waveProfilesFigcaption{
+        .technicalFigcaption{
             font-size:16px;
             line-height:32px;
             font-weight:bold;

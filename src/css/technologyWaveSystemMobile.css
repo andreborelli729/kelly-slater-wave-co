@@ -1,0 +1,88 @@
+@media screen and (min-width:1px){
+    .technologyWaveSystemMobile{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+
+
+    @media screen and (min-width:300px){
+        .technologyWaveSystemMobile{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:block;
+        }
+
+        .technologyWaveSystemTitleMobile{
+            font-size:32px;
+            font-weight:bold;
+            width:100%;
+            text-align:left;
+            padding:4vw;
+            box-sizing:border-box;
+            text-transform:uppercase;
+            color:black;
+            animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+        }
+
+        .technologyWaveSystemParagraphMobile{
+            font-size:20px;
+            line-height:44px;
+            width: 100%;
+            padding:4vw;
+            box-sizing:border-box;
+            text-align:left;
+            color:black;
+            animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+        }
+
+        .technologyWaveSystemImg1Mobile{
+            width:100%;
+            height:auto;
+            animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+        }
+
+        .technologyWaveSystemImg2Mobile{
+            width:50vw;
+            margin-left:50vw;
+            margin-top: -20vh;
+            animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+        }
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        
+        }
+    
+
+
+
+
+
+
+
+    @media screen and (min-width:769px){
+        .technologyWaveSystemMobile{
+            width:0.0001px;
+            height:0.00001px;
+            opacity:0;
+            display:none;
+        }
+        
+        
+        }
+    

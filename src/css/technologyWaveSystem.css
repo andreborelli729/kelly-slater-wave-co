@@ -1,0 +1,110 @@
+@media screen and (min-width:1px){
+    .technologyWaveSystem{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none
+    }
+    
+    
+    }
+
+    @media screen and (min-width:769px){
+        .technologyWaveSystem{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:grid;
+            grid-template-columns:1fr,1fr;
+            margin-top:10vh;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+
+        .technologyWaveSystemTextContainer{
+            grid-column:1;
+            width:48vw;
+            
+        }
+
+        .technologyWaveSystemImgContainer{
+            grid-column:2;
+            width:48vw;
+          
+        }
+
+        .technologyWaveSystemImg1{
+            width:48vw;
+        }
+
+        .technologyWaveSystemImg2{
+            width:24vw;
+            margin-left:22vw;
+            margin-top:-15vh;
+        }
+        .technologyWaveSystemTitle{
+            margin-left:10vw;
+            font-size:30px;
+            font-weight:bold;
+            color:black;
+            text-align:left;
+            text-transform:uppercase;
+            width:30vw;
+            line-height:50px;
+            margin-bottom:10vh;
+        }
+
+        .technologyWaveSystemParagraph{
+            font-size:20px;
+            color:black;
+            line-height:40px;
+            margin-left:10vw;
+            text-align:left;
+            width:30vw;
+        }
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+            
+        
+        }
+
+        @media screen and (min-width:1000px){
+
+            .technologyWaveSystemTitle{
+font-size:40px;
+line-height:60px;
+            }
+
+            .tecnologyWaveSystemParagraph{
+                font-size:26px;
+                line-height:52px;
+            }
+
+            @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+    
+        }
+
+
+        
+        @media screen and (min-width:1200px){
+
+
+            .tecnologyWaveSystemParagraph{
+                font-size:32px;
+                line-height:60px;
+            }
+
+        }

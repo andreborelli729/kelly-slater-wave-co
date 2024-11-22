@@ -11,6 +11,7 @@
 
     @media screen and (min-width:300px){
      .national{
+        margin-top:20vh;    
         display:block;
         opacity:1;
         width:100%;
@@ -26,13 +27,25 @@
         text-align:center;
         width:80vw;
         margin-left:10vw;
+        text-transform:uppercase;
      }
         .nationalParagraph{
             font-size:18px;
             font-weight:bold;
             margin-left:15vw;
             margin-top:10vh;
+            text-transform:uppercase;
+
             
+        }
+
+        .stephanieParagraph{
+            font-size:12px;
+            text-align:center;
+            font-weight:bold;
+            width:100vw;
+            margin-top:10vh;
+            text-transform:uppercase;
         }
 
      
@@ -48,6 +61,10 @@
     @media screen and (min-width:350px){
         .nationalParagraph{
 margin-left:24vw;
+        }
+
+        .stephanieParagraph{
+            font-size:18px;
         }
 
     }

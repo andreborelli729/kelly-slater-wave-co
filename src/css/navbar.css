@@ -134,7 +134,7 @@ Variables
   
   /* section */
   .section {
-    width: 90vw;
+    width: 100vw;
     margin: 0 auto;
     max-width: var(--max-width);
   }

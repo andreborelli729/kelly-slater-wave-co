@@ -1,13 +1,3 @@
-@media screen and (min-width:1px){
-    .ondaBannerMobile{
-        width:0.0001px;
-        height:0.00001px;
-        opacity:0;
-        display:none;
-    }
-    
-    
-    }
 
 
     @media screen and (min-width:300px){
@@ -24,7 +14,7 @@
         }
 .ondaBannerTextContainerMobile{
     width:100vw;
-    margin-top:33vw;
+    margin-top:38vw;
 
 }
 
@@ -85,7 +75,7 @@
                                     }
                                             }
 
-    @media screen and (min-width:769px){
+    @media screen and (min-width:1025px){
         .ondaBannerMobile{
             width:0.0001px;
             height:0.00001px;
