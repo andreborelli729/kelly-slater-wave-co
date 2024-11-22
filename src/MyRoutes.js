@@ -1,7 +1,6 @@
 import React from 'react';
 import App from './App';
 import Navbar from './Navbar.js';
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.js';
 import Wave from './pages/Wave.js';
@@ -28,7 +27,6 @@ function MyRoutes(){
 
         
         </Routes>
-
 </Router>
 
     );

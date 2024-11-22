@@ -1,0 +1,136 @@
+@media screen and (min-width:1px){
+    .scienceProcess{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }
+    @media screen and (min-width:769px){
+        .scienceProcess{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:grid;
+            grid-template-columns:1fr,1fr;
+            margin-top:20vh;
+            animation: fade-in 2s ease-in-out;
+animation-timeline: view();
+        }
+
+        .scienceProcessTextContainer{
+            grid-column:1;
+            width:50vw;
+        }
+
+        .scienceProcessImgContainer{
+            width:50vw;
+            grid-column:2;
+        }
+
+        .scienceProcessTitle{
+            font-size:32px;
+            font-weight:bold;
+            text-transform:uppercase;
+            margin-left:5vw;
+            
+        }
+
+        .scienceProcessParagraph{
+            margin-top:5vh;
+            font-size:18px;
+            line-height:44px;
+            color:black;
+            width:40vw;
+            margin-left:5vw;
+        
+        }
+
+        .scienceProcessImg1{
+            width:45vw;
+            margin-top:30vh;
+        }
+
+        .scienceProcessImg3{
+            width:45vw;
+           
+
+
+        }
+
+        .scienceProcessImg4{
+            width:22vw;
+            margin-left:22vw;
+            margin-top:-10vh;
+            
+        }
+        .scienceProcessImg5{
+            width:25vw;
+            margin-left:10vw;
+            margin-top:-1vh;
+        }
+
+        
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        }
+
+        @media screen and (min-width:900px){
+        .scienceProcessTitle{
+            font-size:36px;
+        }
+
+        .scienceProcessParagraph{
+            font-size:22px;
+            line-height:50px;
+        }
+        
+        }
+
+        @media screen and (min-width:1050px){
+            .scienceProcessTitle{
+                font-size:40px;
+            }
+    
+            .scienceProcessParagraph{
+                font-size:26px;
+                line-height:56px;
+            }
+            
+            }
+
+
+            @media screen and (min-width:1200px){
+                .scienceProcessTitle{
+                    font-size:44px;
+                }
+        
+                .scienceProcessParagraph{
+                    font-size:28px;
+                    line-height:68px;
+                }
+                
+                }
+    
+
+                @media screen and (min-width:1400px){
+                    .scienceProcessTitle{
+                        font-size:45px;
+                    }
+            
+                    .scienceProcessParagraph{
+                        font: size 38px;
+                        line-height:87px;
+                    }
+                    
+                    }
+        
+

@@ -1,0 +1,65 @@
+@media screen and (min-width:1px){
+    .scienceBest{
+        width:0.0001px;
+        height:0.00001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }@media screen and (min-width:300px){
+        .scienceBest{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:block;
+            background-color:#f9f7f3;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+            margin-top:14vh;
+
+        }
+
+        .scienceBestImg{
+            width:100vw;
+        }
+
+        .scienceBestTitle{
+           
+           margin-top:15vh;
+             color:black;
+            text-transform:uppercase;
+            align-items:left;
+            margin-left:5vw;
+            font-size:26px;
+            font-weight:bold;
+        }
+            .scienceBestParagraph{
+                width:90vw;
+                margin-left:5vw;
+                font-size:20px;
+                line-height:40px;
+                color:black
+
+            }
+        
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        }
+        
+        
+        
+        @media screen and (min-width:769px){
+          .scienceBestImg, .scienceBestTitle, .scienceBestParagraph{
+            width:60vw;
+            margin-left:20vw;
+          }
+            
+            
+            }

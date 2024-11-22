@@ -42,7 +42,7 @@
         }
 
         .ranchExperienceImg1Mobile{
-            width:100vw;
+            width:50vw;
             height:auto;
             animation: fade-in 1s ease-in-out;
             animation-timeline: view();

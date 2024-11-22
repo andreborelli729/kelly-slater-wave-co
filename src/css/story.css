@@ -81,6 +81,7 @@
         font-weight:bold;
         animation: fade-in 1s ease-in-out;
         animation-timeline: view();
+        cursor:pointer
     }
     @keyframes fade-in {
         from {

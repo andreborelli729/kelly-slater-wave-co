@@ -28,7 +28,7 @@ const toggleLinks = () => {
     <nav>
       <div className='nav-center'>
       <div className='nav-header'>
-        <a src="https://andreborelliwebdeveloper.netlify.app/">
+        <a href="https://andreborelliwebdeveloper.netlify.app/">
         <img src={logoAndreBorelli} className='my-logo' alt='logo olimpiadas'/>
         </a>
         <img src={hamburgerMenu} className='nav-toggle' onClick={toggleLinks} >

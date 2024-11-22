@@ -1,0 +1,109 @@
+@media screen and (min-width:1px){
+.ranch{
+    width:0.0001px;
+    height:0.00001px;
+    opacity:0;
+    display:none;
+}
+
+
+}
+
+@media screen and (min-width:769px){
+    .ranch{
+        width:100%;
+        box-sizing:border-box;
+        height:auto;
+        opacity:1;
+        display:grid;
+        grid-template-columns:1fr,1fr;
+        margin-bottom:17vw;
+    }
+
+    .ranchTextContainer{
+        grid-column:1;
+        width:46vw;
+        background-color:#F9F7F3;
+    }
+
+    .ranchImgContainer{
+        grid-column:2;
+        width:54vw;
+    }
+
+    .ranchImg1{
+        margin-top:17vw;
+        width:24vw;
+        margin-left:10vw;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+        
+    }
+
+    .ranchImg2{
+        width:48vw;
+        margin-left:5vw;
+        margin-bottom:-60vw;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+
+    .ranchImg3{
+      
+        width:25vw;
+        margin-top:15vw;
+        margin-left:28vw;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+
+    .ranchTitle{
+       
+        padding-top:10vw;
+        color: #173E4C;
+        font-weight:bold;
+        font-size:32px;
+        text-align:left;
+        margin-left:15vw;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    }
+    
+    .ranchParagraph{
+        padding-top:8vh;
+        margin-left:15vw;
+        color: #173E4C;
+        font: size 24px;
+        line-height:32px;
+        text-align: left;
+        width:30vw;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+    
+    }
+    
+    .ranchBtn{
+        margin-left:15vw;
+        margin-top:8vh;
+        background-color: #07232C;
+        width:150px;
+        height:13vh;
+        color: #fff;
+        font-size: 14px;
+        font-weight:bold;
+        animation: fade-in 1s ease-in-out;
+        animation-timeline: view();
+        cursor:pointer;
+    }
+    @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 100;
+        }
+      }
+    
+    
+    }
+

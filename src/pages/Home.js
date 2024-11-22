@@ -1,16 +1,16 @@
 import React from 'react';
-import ExperienceMobile from '../components/ExperienceMobile.js';
-import Experience from '../components/Experience.js';
-import SystemMobile from '../components/SystemMobile.js';
-import System from '../components/System.js';
-import RanchMobile from '../components/RanchMobile.js';
-import Ranch from '../components/Ranch.js';
-import StoryMobile from '../components/StoryMobile.js';
-import Story from '../components/Story.js';
-import HomeBannerMobile from '../components/HomeBannerMobile.js';
-import HomeBanner from '../components/HomeBanner.js';
-import National from '../components/National.js';
-import HomeFooter from '../components/HomeFooter.js';
+import ExperienceMobile from '../components/homePage/ExperienceMobile.js';
+import Experience from '../components/homePage/Experience.js';
+import SystemMobile from '../components/homePage/SystemMobile.js';
+import System from '../components/homePage/System.js';
+import HomeRanchMobile from '../components/homePage/HomeRanchMobile.js';
+import HomeRanch from '../components/homePage/HomeRanch.js';
+import StoryMobile from '../components/homePage/StoryMobile.js';
+import Story from '../components/homePage/Story.js';
+import HomeBannerMobile from '../components/homePage/HomeBannerMobile.js';
+import HomeBanner from '../components/homePage/HomeBanner.js';
+import National from '../components/homePage/National.js';
+import HomeFooter from '../components/homePage/HomeFooter.js';
 
 function Home(){
     return(
@@ -22,8 +22,8 @@ function Home(){
   <Experience/>
   <SystemMobile/>
   <System/>
-  <RanchMobile/>
-  <Ranch/>
+  <HomeRanchMobile/>
+  <HomeRanch/>
   <StoryMobile/>
   <Story/>
   <National/>

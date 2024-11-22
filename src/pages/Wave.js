@@ -1,11 +1,11 @@
 import React from 'react';
-import WaveBannerMobile from '../components/WaveBannerMobile.js';
-import WaveBanner from '../components/WaveBanner.js';
-import PumpingMobile from '../components/PumpingMobile.js';
-import Pumping from '../components/Pumping.js';
-import WaveProfilesMobile from '../components/WaveProfilesMobile.js';
-import WaveProfiles from '../components/WaveProfiles.js';
-import WaveFooter from '../components/WaveFooter.js';
+import WaveBannerMobile from '../components/wavePage/WaveBannerMobile.js';
+import WaveBanner from '../components/wavePage/WaveBanner.js';
+import PumpingMobile from '../components/wavePage/PumpingMobile.js';
+import Pumping from '../components/wavePage/Pumping.js';
+import WaveProfilesMobile from '../components/wavePage/WaveProfilesMobile.js';
+import WaveProfiles from '../components/wavePage/WaveProfiles.js';
+import WaveFooter from '../components/wavePage/WaveFooter.js';
 
 function Wave(){
     return(

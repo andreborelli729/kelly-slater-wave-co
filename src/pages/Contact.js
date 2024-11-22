@@ -1,8 +1,8 @@
 import React from 'react';
-import ContactBannerMobile from '../components/ContactBannerMobile.js';
-import ContactBanner from '../components/ContactBanner.js';
-import ContactForm from '../components/ContactForm.js';
-import ContactFooter from '../components/ContactFooter.js';
+import ContactBannerMobile from '../components/contactPage/ContactBannerMobile.js';
+import ContactBanner from '../components/contactPage/ContactBanner.js';
+import ContactForm from '../components/contactPage/ContactForm.js';
+import ContactFooter from '../components/contactPage/ContactFooter.js';
 
 function Contact(){
     return(

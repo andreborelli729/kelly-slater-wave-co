@@ -1,12 +1,12 @@
 import React from 'react';
-import TechnologyBannerMobile from '../components/TechnologyBannerMobile.js';
-import TechnologyBanner from '../components/TechnologyBanner.js';
-import TechnologyWaveSystemMobile from '../components/TechnologyWaveSystemMobile.js';
-import TechnologyWaveSystem from '../components/TechnologyWaveSystem.js';
-import TechnicalMobile from '../components/TechnicalMobile.js';
-import Technical from '../components/Technical.js';
-import Stephanie from '../components/Stephanie.js';
-import TechnologyFooter from '../components/TechnologyFooter.js';
+import TechnologyBannerMobile from '../components/technologyPage/TechnologyBannerMobile.js';
+import TechnologyBanner from '../components/technologyPage/TechnologyBanner.js';
+import TechnologyWaveSystemMobile from '../components/technologyPage/TechnologyWaveSystemMobile.js';
+import TechnologyWaveSystem from '../components/technologyPage/TechnologyWaveSystem.js';
+import TechnicalMobile from '../components/technologyPage/TechnicalMobile.js';
+import Technical from '../components/technologyPage/Technical.js';
+import Stephanie from '../components/technologyPage/Stephanie.js';
+import TechnologyFooter from '../components/technologyPage/TechnologyFooter.js';
 
 
 

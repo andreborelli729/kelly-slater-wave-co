@@ -1,0 +1,94 @@
+@media screen and (min-width:1px){
+    .scienceProcessMobile{
+        width:0.0001px;
+        height:0.0001px;
+        opacity:0;
+        display:none;
+    }
+    
+    
+    }@media screen and (min-width:300px){
+        .scienceProcessMobile{
+            width:100%;
+            height:auto;
+            opacity:1;
+            display:block;
+            margin-top:20vh;
+            margin-bottom:15vh;
+           
+        }
+
+        .scienceProcessTitleMobile{
+            text-transform:uppercase;
+            margin-top:10vh;
+            font-size:26px;
+            font-weight:bold;
+            color:black;
+            margin-left:5vw;
+             animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+           
+        }
+
+        .scienceProcessParagraphMobile{
+            font-size:16px;
+            color:black;
+            margin-left:5vw;
+            width:90vw;
+            text-align:left;
+            line-height:40px;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+           
+        }
+
+        .scienceProcessImg1Mobile{
+           width:80vw;
+           margin-left:10vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+        }
+   
+        .scienceProcessImg3Mobile{
+        width:100vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+           
+        }
+
+        .scienceProcessImg4Mobile{
+            width:100vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+         
+
+        }
+
+        .scienceProcessImg5Mobile{
+            width:50vw;
+            animation: fade-in 1s ease-in-out;
+            animation-timeline: view();
+            margin-left:50vw;
+            margin-top:-10vh;
+
+        }
+        @keyframes fade-in {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 100;
+            }
+          }
+        
+        }
+        @media screen and (min-width:769px){
+            .scienceProcessMobile{
+                width:0.0001px;
+                height:0.0001px;
+                opacity:0;
+                display:none;
+            }
+            
+            
+            }

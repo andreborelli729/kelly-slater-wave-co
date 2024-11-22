@@ -60,6 +60,7 @@
 }
 
 .experienciaMobileBtn{
+    cursor:pointer;
     margin-left:5%;
     margin-top:8vh;
     background-color: #07232C;
