@@ -1,0 +1,74 @@
+@media screen and (min-width:1px){
+    .page404{
+        width:0.0001px;
+        height:0.0001px;
+        display:none;
+        opacity:0;
+    }
+    
+    
+    }
+
+
+    @media screen and (min-width:300px){
+        .page404{
+            width:100%;
+            height:auto;
+            display:block;
+            opacity:1;
+        }
+        
+        .page404Container1{
+            background-color:grey;
+        }
+        .errorTitle{
+            font-size:32px;
+            font-weight:bold;
+            text-transform: uppercase;
+            color:black;
+            width:100%;
+            text-align:center;
+            margin-bottom:100px;
+        }
+
+        .page404Container2{
+            background-color:#3d5a89;
+        }
+
+        .page404Btn{
+            width:80vw;
+            margin-left:10vw;
+            height:12vh;
+            background-color:#07232C;
+            color:white;
+            cursor:pointer;
+            font-weight:bold;
+        }
+
+        .errorImg{
+            width:60vw;
+            margin-left:20vw;
+        }
+
+        .errorLogo{
+            width:60vw;
+            margin-left:20vw;
+            cursor:pointer;
+        }
+        }
+
+
+
+
+        @media screen and (min-width:769px){
+          .page404Btn{
+            width:30vw;
+            margin-left:35vw;
+            
+          }
+
+          .errorImg, .errorLogo{
+            width:40vw;
+            margin-left:30vw;
+          }
+            }

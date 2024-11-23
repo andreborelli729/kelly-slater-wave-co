@@ -8,6 +8,7 @@ import Technology from './pages/Technology.js';
 import Contact from './pages/Contact.js';
 import Science from './pages/Science.js';
 import Ranch from './pages/Ranch.js';
+import Page404 from './pages/Page404.js';
 
 function MyRoutes(){
     return(
@@ -21,6 +22,7 @@ function MyRoutes(){
         <Route path="/the-science" element={<Science/>}></Route>
         <Route path="/surf-ranch" element={<Ranch/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="*" element={<Page404/>}></Route>
 
 
 
